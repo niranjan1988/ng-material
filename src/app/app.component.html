@@ -1,0 +1,68 @@
+<!-- <div style="margin: auto;width: 700px;"> -->
+
+
+
+
+
+
+
+<mat-sidenav-container fullscreen>
+
+  <mat-sidenav #start>
+
+    <mat-nav-list>
+
+      <a mat-list-item routerLink="/">
+        <mat-icon>library_books</mat-icon>
+        <span>Courses</span>
+      </a>
+
+      <a mat-list-item routerLink="about">
+        <mat-icon>question_answer</mat-icon>
+        <span>About</span>
+      </a>
+      <a mat-list-item>
+        <mat-icon>person_add</mat-icon>
+        <span>Register</span>
+      </a>
+
+      <a mat-list-item>
+        <mat-icon>account_circle</mat-icon>
+        <span>Login</span>
+      </a>
+
+
+    </mat-nav-list>
+
+  </mat-sidenav>
+
+  <mat-toolbar color="primary">
+    <button mat-icon-button (click)="start.open()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </mat-toolbar>
+
+  
+  <div style="width: 1000px;margin: auto;">
+    <br>
+    <mat-card>
+      <div matCardTitle>Title</div>
+      <div matCardSubtitle>subtitle jashfas</div>
+      <img matCardImageLarge src="https://picsum.photos/200" />
+      <div matCardContent>This is body andsafgajsd askjkhfsa askugsagf ashisahgs sghgasgsa ashfgasghsafgisans fssgfsf
+      </div>
+      <div matCardFooter>Footer text</div>
+    </mat-card>
+
+    <br><br>
+
+    <mat-card>
+      <mat-card-title>Title</mat-card-title>
+      <mat-card-subtitle>subtitle jashfas</mat-card-subtitle>
+      <mat-card-content>This is body andsafgajsd askjkhfsa askugsagf ashisahgs sghgasgsa ashfgasghsafgisans fssgfsf
+      </mat-card-content>
+      <mat-card-footer>Footer text</mat-card-footer>
+    </mat-card>
+  </div>
+
+</mat-sidenav-container>
